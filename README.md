@@ -1,4 +1,4 @@
-# AwsGameLift 5.0 for UE5 5.1
+# AwsGameLift 5.0 plugin for UE5 5.1
  A working Windows AWS GameLift version 5.0.0.0 plugin for UE5 version 5.1
  
 Since there has been no support for UE5 in recent releases of the GameLift SDK,
