@@ -19,3 +19,6 @@ hours work is needed to get the latest version working, it really does beg the q
 why have Amazon not done this themselves?
 
 Anyway. Hopefully this plugin works for you. If you have any problems please contact me.
+
+# Install Instructions
+Simply place the GameLiftServerSDK folder into your project/engine Plugins folder.
