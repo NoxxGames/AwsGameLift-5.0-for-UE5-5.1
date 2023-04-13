@@ -107,25 +107,4 @@ AGameLiftFPSGameMode::AGameLiftFPSGameMode()
 }
 ```
 
-### Running a cooked Unreal server on GameLift
-When cooking an Unreal server build, the engine will produce two executables. One will be located in the root of the folder and will act as a wrapper for the actual server executable. Is it recommended that the actual server executable be passed in as the launch path when creating a fleet.
-For example, I might have a GameLiftFPS.exe file at the root and another at \GameLiftFPS\Binaries\Win64\GameLiftFPSServer.exe. So, when creating a fleet, it is recommended to use C:\GameLiftFPS\Binaries\Win64\GameLiftFPSServer.exe as the launch path of the runtime configuration.
-
-Make sure to open the necessary UDP ports on the GameLift Fleet so that the Server can communicate to the client. By default Unreal Engine uses port 7777.
-
-Include an install.bat file to setup preqrequiests on the fleet. Example install.bat file:
-
-````
-VC_redist.x64.exe /q
-UE4PrereqSetup_x64.exe /q
-````
-
-### Compatability Notes
-Supported UE4 Versions
-------
-4.22
-4.23
-4.24
-4.25
-4.26
 
