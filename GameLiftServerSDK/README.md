@@ -1,7 +1,5 @@
 At this point, we are ready to add the plugin to an Unreal game project and start using it.
 
-For more detailed instructions on how to build the c++ SDK, please refer to the README.md file located in the c++ SDK directory.
-
 ### Import the plugin into a project
 There are quite a lot of wasy to import an Unreal plugin. The method shown below doesn't require use of the Unreal Editor.
 
